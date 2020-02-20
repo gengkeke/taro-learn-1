@@ -1,8 +1,8 @@
 import Taro from '@tarojs/taro'
-import {View,Text} from '@tarojs/components'
+import { View, Text } from '@tarojs/components'
 
 function Child(props) {
-  return(
+  return (
     <View>
       <Text>{props.userName}</Text>
     </View>
